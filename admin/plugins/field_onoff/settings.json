@@ -1,0 +1,5 @@
+{
+  "#title":"Onoff field",
+  "#description":"Поле для хранения двух состояний",
+  "#version":"1.0"
+}

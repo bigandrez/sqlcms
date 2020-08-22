@@ -1,0 +1,1 @@
+<!DOCTYPE html><html lang="ru"><head><?php foreach($headers as $v):?><?=$v;?><?php endforeach;?><?=$core->snippet('topless');?></head><body><?php return;

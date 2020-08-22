@@ -1,0 +1,15 @@
+{
+  "#title":"MySQL DB connector",
+  "#description":"Работа сайта с БД MySQL и её обслуживание",
+  "#version":"1.0",
+  "db_user":"root",
+  "#db_user": {"title":"Пользователь БД","description":"Логин пользователя базы MySQL","group":"Настройки базы данных","type":"text"},
+  "db_pass":"",
+  "#db_pass": {"title":"Пароль пользователя БД","description":"Пароль пользователя базы MySQL","group":"Настройки базы данных","type":"text"},
+  "db_name":"sqlcms",
+  "#db_name": {"title":"Имя базы в БД MySQL","description":"Имя базы данных в БД MySQL","group":"Настройки базы данных","type":"text"},
+  "cache_enable":"1",
+  "#cache_enable": {"title":"Включить кеширование","description":"Любое значение в поле указывает, что кеширование включено","group":"Настройки кеширования","type":"text"},
+  "cache_file_location":"cache/mysql/mysqlcache.json",
+  "#cache_file_location": {"title":"Путь к файлу mysqlcache.json","description":"Имя файла кеша и путь к нему относительно корня сайта","group":"Настройки кеширования","type":"text"}
+}

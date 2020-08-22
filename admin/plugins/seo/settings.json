@@ -1,0 +1,9 @@
+{
+  "#title":"SEO",
+  "#description":"Управление некоторыми seo-параметрами страниц сайта",
+  "#version":"1.0",
+  "yandex_verification":"",
+  "google_verification":"",
+  "#yandex_verification": {"title":"Метатег yandex verification","description":"Содержимое метатега yandex verification","group":"Метатеги","type":"text"},
+  "#google_verification": {"title":"Метатег google verification","description":"Содержимое метатега google verification","group":"Метатеги","type":"text"}
+}

@@ -1,0 +1,1 @@
+<?=$core->snippet('bottomless');?></body></html><?php return;

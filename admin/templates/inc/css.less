@@ -1,0 +1,148 @@
+* {  
+  vertical-align: baseline;  
+  font-family: inherit;  
+  font-size: 100%;  
+  border: none;  
+  padding: 0;  
+  margin: 0;  
+}  
+body {  
+  padding: 0px;  
+}  
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
+  margin: 20px 0;  
+}  
+li, dd, blockquote {  
+  margin-left: 40px;  
+}  
+table {  
+  border-collapse: collapse;  
+  border-spacing: 0;  
+} 
+
+.clear{
+clear:both;
+}
+.preheader, .header,.content,.footer,.postfooter{
+}
+
+.page{
+width:1280px;
+margin:0 auto;
+}
+
+// Используется в случае, когда содержимое желает быть на всю ширину
+.content{
+margin:0 0 0 320px;
+}
+
+.preheader{
+//background-color:red;
+}
+
+.logo{
+margin:0 auto;
+text-align: center;
+    width: 100px;
+    box-shadow: black 0 0 49px -6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logout{
+    position: absolute;
+    right: 0;
+top:0;	
+text-align: center;
+    width: 100px;
+    box-shadow: black 0 0 49px -6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul.pager li{
+display:inline-block;
+width:2em;
+margin: 0;
+}
+
+ul.pager li a, ul.pager li span{
+padding:0 10px;
+text-decoration: none;
+}
+ul.pager li a:hover{
+background: #dddddd;
+}
+
+.leftblock{
+    font-family: Arial;
+    float: left;
+    width: 280px;
+    margin-right: 20px;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    padding: 0 10px 10px 10px;
+overflow-y: scroll;
+}
+.leftblock .item{
+margin:10px 0;
+}
+.leftblock .pagelink{
+    margin-top: 7px;
+margin-left:20px;
+font-size: 13px;
+}
+.leftblock .pagelink a{
+text-decoration:none;
+color:blue;
+}
+.leftblock .pagelink a:hover{
+text-decoration:underline;
+}
+
+.leftblock .item .settings{
+    width: 24px;
+    height: 24px;
+    background-image: url(http://sqlcms/admin/templates/img/settings.png);
+    background-size: contain;
+    float: right;
+cursor:pointer;
+}
+
+.quickpage{
+float:left;
+width:200px;
+height:200px;
+display:inline-block;
+border:1px solid gray;
+}
+
+.leftblock .pages{
+width:100%;
+}
+
+.pagetabs{
+width:100%;
+    display: table;
+}
+
+.pagetabs>div{
+    display: table-cell;
+text-align:center;
+cursor:pointer;
+}
+
+.pagetabs>div:hover, .pagetabs .active{
+background:#88f;
+}
+
+.leftblock .pages>div:not(:first-child){
+display:none;
+}
+.pages .tabname{
+display:none;
+}
+
+

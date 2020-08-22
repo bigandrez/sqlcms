@@ -1,0 +1,67 @@
+.content .item{
+    border: 1px dashed gray;
+    margin: 0 0 21px 0;
+    padding: 15px 10px 10px 10px;
+}
+
+.content .item .hdr{
+    position: absolute;
+    margin-top: -27px;
+    margin-left: -5px;
+    background: white;
+    padding: 0 5px;
+}
+
+.content .item .title{
+    font-family: Arial;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.content .item .description{
+}
+
+.content .item .enabled{
+color: #00AA00;
+}
+.content .item .enable{
+}
+
+.content .item .disabled{
+color: #AA0000;
+}
+.content .item .disable{
+}
+
+.content .item .notinstalled{
+color:gray;
+}
+
+.content .item .install{
+}
+
+.content .item .uninstall{
+}
+
+.content .item .enabled, .content .item .enable, .content .item .disabled, .content .item .disable, .content .item .notinstalled, .content .item .install, .content .item .uninstall, .content .item .settings{
+font-family: Arial;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 12px;
+display:inline-block;
+}
+
+.content .item .enabled a, .content .item .enable a, .content .item .disabled a, .content .item .disable a, .content .item .notinstalled a, .content .item .install a, .content .item .uninstall a{
+color:gray;
+}
+
+.content .item .enable, .content .item .disable, .content .item .uninstall, .content .item .install, .content .item .settings{
+display:none;
+}
+.content .item:hover .enable, .content .item:hover .disable, .content .item:hover .uninstall, .content .item:hover .install, .content .item:hover .settings{
+display:inline-block;
+}
+
+.content .item:hover .notinstalled, .content .item:hover .enabled, .content .item:hover .disabled{
+display:none;
+}

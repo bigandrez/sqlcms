@@ -1,0 +1,68 @@
+.fieldedit{
+cursor:text;
+}
+
+.fieldedit.onoff{
+cursor:pointer;
+}
+
+.fieldedit:hover{
+background-color:lightblue;
+}
+.fieldedit{
+    padding: 5px 10px;
+    min-height: 20px;
+    min-width: 30px;
+}
+#fieldedit.fieldedit{
+#    padding: 0;
+}
+
+.fieldedit input{
+    padding: 2px 10px 3px;
+}
+
+.fieldedit.datetime input{
+    padding: 2px 9px;
+}
+
+.item table td{
+padding-left:0px;
+padding-right:0px;
+}
+
+.item table #fieldedit.fieldedit input{
+ padding: 1px 10px 3px;
+}
+.fieldedit.process:not(#fieldedit):after {
+content: '+';
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    float: right;
+    font-size: 169%;
+    line-height: 71%;
+    font-family: serif;
+}
+
+.fieldedit.error:not(#fieldedit):after {
+content: '!';
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    float: right;
+    font-size: 169%;
+    line-height: 71%;
+  color:red;
+font-weight: bold;
+}
+
+.nodetypes tr:hover{
+background:#eeeeee;
+cursor:pointer;
+}

@@ -1,0 +1,18 @@
+<IfModule dir_module>
+    DirectoryIndex index.php
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !=/favicon2.ico
+  RewriteCond %{REQUEST_URI} !=/rubric2.xml
+  RewriteCond %{REQUEST_URI} !=/subrubric2.xml
+  RewriteCond %{REQUEST_URI} !=/organization.xml
+  RewriteCond %{REQUEST_URI} !=/server-status
+#  RewriteCond %{REQUEST_URI} !=/robots.txt
+  RewriteCond %{REQUEST_URI} !=/robots_sst.txt
+  RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+
+</IfModule>
